@@ -7,3 +7,7 @@ library(ggplot2)
 
 USArrests
 #trial script 
+
+ggplot(USArrests) +
+  aes(x = Murder) +
+  geom_histogram()
